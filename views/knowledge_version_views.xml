@@ -1,0 +1,13 @@
+<odoo>
+    <record id="view_knowledge_version_tree" model="ir.ui.view">
+        <field name="name">knowledge.version.tree</field>
+        <field name="model">knowledge.article.version</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="article_id"/>
+                <field name="name"/>
+                <field name="date_created"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

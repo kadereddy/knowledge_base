@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <record id="group_knowledge_base_user" model="res.groups">
+            <field name="name">Knowledge Base User</field>
+        </record>
+        <record id="group_knowledge_base_manager" model="res.groups">
+            <field name="name">Knowledge Base Manager</field>
+        </record>
+    </data>
+</odoo>
